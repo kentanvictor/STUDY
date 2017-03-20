@@ -13,9 +13,11 @@
 
 
 ## 數據結構
-* [數據結構緒論](https://github.com/kentanvictor/JAVA_STUDY/blob/master/%E6%95%B8%E6%93%9A%E7%B5%90%E6%A7%8B/%E6%95%B8%E6%93%9A%E7%B5%90%E6%A7%8B%E7%B7%92%E8%AB%96.md)
-* [線性表](https://github.com/kentanvictor/JAVA_STUDY/blob/master/%E6%95%B8%E6%93%9A%E7%B5%90%E6%A7%8B/%E7%B7%9A%E6%80%A7%E8%A1%A8.md)
-* [順序表的算法設計](https://github.com/kentanvictor/JAVA_STUDY/blob/master/%E6%95%B8%E6%93%9A%E7%B5%90%E6%A7%8B/%E9%A0%86%E5%BA%8F%E8%A1%A8%E7%9A%84%E7%AE%97%E6%B3%95%E8%A8%AD%E8%A8%88.md)
+* [數據結構緒論](https://github.com/kentanvictor/STUDY/blob/master/%E6%95%B8%E6%93%9A%E7%B5%90%E6%A7%8B/%E6%95%B8%E6%93%9A%E7%B5%90%E6%A7%8B%E7%B7%92%E8%AB%96/%E6%95%B8%E6%93%9A%E7%B5%90%E6%A7%8B%E7%B7%92%E8%AB%96.md)
+* [數據中的結構](https://github.com/kentanvictor/STUDY/blob/master/%E6%95%B8%E6%93%9A%E7%B5%90%E6%A7%8B/%E6%95%B8%E6%93%9A%E7%B5%90%E6%A7%8B%E7%B7%92%E8%AB%96/%E6%95%B8%E6%93%9A%E4%B8%AD%E7%9A%84%E7%B5%90%E6%A7%8B.md)
+* [數據](https://github.com/kentanvictor/STUDY/blob/master/%E6%95%B8%E6%93%9A%E7%B5%90%E6%A7%8B/%E6%95%B8%E6%93%9A%E7%B5%90%E6%A7%8B%E7%B7%92%E8%AB%96/%E6%95%B8%E6%93%9A.md)
+* [線性表](https://github.com/kentanvictor/STUDY/blob/master/%E6%95%B8%E6%93%9A%E7%B5%90%E6%A7%8B/%E7%B7%9A%E6%80%A7%E8%A1%A8/%E7%B7%9A%E6%80%A7%E8%A1%A8.md)
+* [順序表的算法設計](https://github.com/kentanvictor/STUDY/blob/master/%E6%95%B8%E6%93%9A%E7%B5%90%E6%A7%8B/%E7%B7%9A%E6%80%A7%E8%A1%A8/%E9%A0%86%E5%BA%8F%E8%A1%A8%E7%9A%84%E7%AE%97%E6%B3%95%E8%A8%AD%E8%A8%88.md)
 * [流程控制語句](https://github.com/kentanvictor/JAVA_STUDY/blob/master/%E6%95%B8%E6%93%9A%E7%B5%90%E6%A7%8B/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6%E8%AA%9E%E5%8F%A5.md)
 * [枚舉-討厭的青蛙](https://github.com/kentanvictor/JAVA_STUDY/blob/master/%E6%95%B8%E6%93%9A%E7%B5%90%E6%A7%8B/%E6%9E%9A%E8%88%89-%E8%A8%8E%E5%8E%AD%E7%9A%84%E9%9D%92%E8%9B%99.md)
 
