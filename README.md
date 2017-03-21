@@ -1,6 +1,7 @@
 # STUDY_NOTE
 ## JAVA學習
 * [String類源代碼深析](https://github.com/kentanvictor/JAVA_STUDY/blob/master/JAVA%E5%AD%B8%E7%BF%92/String%E9%A1%9E%E6%BA%90%E4%BB%A3%E7%A2%BC%E6%B7%B1%E6%9E%90.md)
+* [String類陷阱深度解析](https://github.com/kentanvictor/STUDY/blob/master/JAVA%E5%AD%B8%E7%BF%92/String%E9%A1%9E%E9%99%B7%E9%98%B1%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90.md)
 * [Object類詳解](https://github.com/kentanvictor/JAVA_STUDY/blob/master/JAVA%E5%AD%B8%E7%BF%92/Object%E9%A1%9E%E8%A9%B3%E8%A7%A3.md)
 * [包與導入語句的剖析](https://github.com/kentanvictor/JAVA_STUDY/blob/master/JAVA%E5%AD%B8%E7%BF%92/%E5%8C%85%E8%88%87%E5%B0%8E%E5%85%A5%E8%AA%9E%E5%8F%A5%E7%9A%84%E5%89%96%E6%9E%90.md)
 * [訪問控制符詳解](https://github.com/kentanvictor/JAVA_STUDY/blob/master/JAVA%E5%AD%B8%E7%BF%92/%E8%A8%AA%E5%95%8F%E6%8E%A7%E5%88%B6%E7%AC%A6%E8%A9%B3%E8%A7%A3.md)
