@@ -1,13 +1,15 @@
 #include<stdio.h>
 #include<malloc.h>
-struct LNode
+#include<stdlib.h>
+typedef struct LNode
 {
 	int data;
 	struct LNode *next;
-};
+}LNode;
 	/*上面只是定义了一个结构体类型，并未实际分配内存空间
 	只有定义了变量才分配内存空间*/
-struct LNode *creat(int n)
+	/*“typedef”指的是自定义结构体；在上面自定义结构体，然后下面的*/
+LNode *creat(int n)
 {
 	int i;
 	struct LNode *head,*p1,*p2;
