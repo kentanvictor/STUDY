@@ -7,7 +7,7 @@
 * [訪問控制符詳解](https://github.com/kentanvictor/JAVA_STUDY/blob/master/JAVA%E5%AD%B8%E7%BF%92/%E8%A8%AA%E5%95%8F%E6%8E%A7%E5%88%B6%E7%AC%A6%E8%A9%B3%E8%A7%A3.md)
 * [面向對象](https://github.com/kentanvictor/JAVA_STUDY/blob/master/JAVA%E5%AD%B8%E7%BF%92/%E9%9D%A2%E5%90%91%E5%B0%8D%E8%B1%A1.md)
 * [JAVA學習之接口_static_final等關鍵字](https://github.com/kentanvictor/JAVA_STUDY/blob/master/JAVA%E5%AD%B8%E7%BF%92/JAVA%E5%AD%A6%E4%B9%A0%E4%B9%8B%E6%8E%A5%E5%8F%A3_static_final%E7%AD%89%E9%97%9C%E9%8D%B5%E5%AD%97.md)
-* [JAVA學習之單例模式](https://github.com/kentanvictor/JAVA_STUDY/blob/master/JAVA%E5%AD%B8%E7%BF%92/JAVA%E5%AD%B8%E7%BF%92%E4%B9%8B%E5%96%AE%E4%BE%8B%E6%A8%A1%E5%BC%8F.md)
+* [JAVA學習之單例模式](https://github.com/kentanvictor/STUDY/blob/master/JAVA%E5%AD%B8%E7%BF%92/JAVA%E5%AD%B8%E7%BF%92%E4%B9%8B%E5%96%AE%E4%BE%8B%E6%A8%A1%E5%BC%8F.md)
 * [JAVA之封裝](https://github.com/kentanvictor/JAVA_STUDY/blob/master/JAVA%E5%AD%B8%E7%BF%92/JAVA%E4%B9%8B%E5%B0%81%E8%A3%9D.md)
 * [運算符](https://github.com/kentanvictor/JAVA_STUDY/blob/master/JAVA%E5%AD%B8%E7%BF%92/%E9%81%8B%E7%AE%97%E7%AC%A6.md)
 * [原生數據類型](https://github.com/kentanvictor/JAVA_STUDY/blob/master/JAVA%E5%AD%B8%E7%BF%92/%E5%8E%9F%E7%94%9F%E6%95%B8%E6%93%9A%E9%A1%9E%E5%9E%8B.md)
