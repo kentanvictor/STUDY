@@ -17,14 +17,14 @@ LNode *creat(int n)
 	p2总是指向尾结点，并通过p2来链入新分配的结点*/
 	int a;
 	head=NULL;
-for(i=1;i<=n;i++)
-{
-	p1=(struct LNode *)malloc(sizeof(struct LNode));
-	/*动态分配内存空间，并数据转换为(struct LNode)类型*/
-	printf("请输入链表中的第%d个数：",i);
-	scanf("%d",&a);
-	p1->data=a;
-	if(head==NULL)/*指定链表的头指针*/
+	for(i=1;i<=n;i++)
+	{
+		p1=(struct LNode *)malloc(sizeof(struct LNode));
+		/*动态分配内存空间，并数据转换为(struct LNode)类型*/
+		printf("请输入链表中的第%d个数：",i);
+		scanf("%d",&a);
+		p1->data=a;
+		if(head==NULL)/*指定链表的头指针*/
 	{
 		head=p1;
 		p2=p1;
