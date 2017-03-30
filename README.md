@@ -1,5 +1,6 @@
 # STUDY_NOTE
 ## JAVA學習
+* [IDE的詳細介紹](https://github.com/kentanvictor/STUDY/blob/master/JAVA%E5%AD%B8%E7%BF%92/IDE%E7%9A%84%E8%A9%B3%E7%B4%B0%E4%BB%8B%E7%B4%B9.md)
 * [Java數組查找方式以及二分查找剖析](https://github.com/kentanvictor/STUDY/blob/master/JAVA%E5%AD%B8%E7%BF%92/Java%E6%95%B8%E7%B5%84%E6%9F%A5%E6%89%BE%E6%96%B9%E5%BC%8F%E4%BB%A5%E5%8F%8A%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E5%89%96%E6%9E%90.md)
 * [冒泡排序的JAVA實現](https://github.com/kentanvictor/STUDY/blob/master/JAVA%E5%AD%B8%E7%BF%92/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F%E7%9A%84java%E5%AF%A6%E7%8F%BE.md)
 * [String類源代碼深析](https://github.com/kentanvictor/JAVA_STUDY/blob/master/JAVA%E5%AD%B8%E7%BF%92/String%E9%A1%9E%E6%BA%90%E4%BB%A3%E7%A2%BC%E6%B7%B1%E6%9E%90.md)
