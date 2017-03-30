@@ -38,7 +38,7 @@ public class Test
 * 在java中聲明final常量時通常都會加上static關鍵字，這樣對對象的每個實例都會訪問唯一一份的常量值。
 ## Java中的集合框架
 
-![](..//Image/implement.png)
+![](../Image/implement.png)
 
 * 上面是集合框架的接口
 * 所謂框架就是一個類庫的集合。集合框架就是一個用來表示和操作集合的統一架構，包含了實現集合的接口與類。
