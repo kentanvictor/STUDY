@@ -84,3 +84,9 @@ public class AppendAllElementOfCollection {
 ## 注：还有更多的ArrayList的方法可以参考官方文档
 
 [java.util.ArayList](http://tool.oschina.net/apidocs/apidoc?api=jdk_7u4)
+
+![](../image/ArrayList.png)
+
+* -------------------这是一条分割线(下面是ArrayList另外具有的方法)--------------------------
+
+![](../image/method.png)
