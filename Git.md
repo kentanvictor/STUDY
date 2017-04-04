@@ -1,9 +1,16 @@
 # Git
 ## What is Git?
 * Git is the most advanced distributed version control system in the world.
-## What is the different between the SVN and the Git?
+## What is the different between the SVN(Subversion) and the Git?
 * SVN is a centralized version control system which version library  centralized packed in the central server.So if you need to do your work,you must go to the central server to download the latest version.When you finished your work,you have to push on the central server.It's so inconvenient.Actually the centralized version control system must accessible networking.
+##### just like this photo
+
+![](./image/subversion.png)
+
 * Git is a distributed version control system,which advantaged is if it has not a central version,the LapTop is a rounded version library.because of this, you can work without using network.
+##### just like this photo
+
+![](./image/git.png)
 
 ## there are some useful command lines :
 * mkdir: XX (Create an empty directory)/*XX refer to directory name*/
