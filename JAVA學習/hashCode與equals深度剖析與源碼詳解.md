@@ -54,4 +54,26 @@
 
 
  * Method Summary
- 
+  * boolean add(E e)
+   >Add the specified element to this set if it is not already present.(如果不存在，则将指定的元素添加到该集合中)
+
+  * void clear()
+   >Removes all of the elements from this set.(移除此集合中的所有元素。)
+
+  * Object clone()
+   >Returns a shallow copy of this HashSet instance: the elements themselves are not cloned.(返回此HashSet实例浅拷贝：元素本身不是克隆。)
+
+  * boolean contains(Object o)
+   >Returns true if this set contains the specified element.(如果此集合包含指定元素，则返回true。)
+
+  * boolean isEmpty()
+   >Returns true if this set contains no element.(如果此集合不包含元素，返回true。)
+
+  * Interator< E > interator()
+   >Returns an iterator over the elements in this set.(返回此集合中元素的迭代器。)
+
+  * boolean remove(Object o)
+   >Removes the specified element from this set if it's present.(如果此集合存在，则从该集合中移除指定元素。)
+
+  * int size()
+   >Returns the number of elements in this set(its cardinality)(返回此集合中的元素数（它的基数）
