@@ -56,6 +56,7 @@
  * Method Summary
   * boolean add(E e)
    >Add the specified element to this set if it is not already present.(如果不存在，则将指定的元素添加到该集合中)
+   >If this set already contains the element, the call leaves the set unchanged and renturns false.(如果集合中包含这个元素，则集合不会被修改，返回值为假。)
 
   * void clear()
    >Removes all of the elements from this set.(移除此集合中的所有元素。)
@@ -77,3 +78,14 @@
 
   * int size()
    >Returns the number of elements in this set(its cardinality)(返回此集合中的元素数（它的基数）
+
+### 關於Object類的equals方法的特點
+* 自反性：x.equals(x)應該返回true
+* 對稱性：x.equals(y)為true，那麼y.equals(x)返回值也為true
+* 可傳遞性：x.equals(y)為true並且y.equals(z)為true，那麼x.equals(z)也應該為true。
+* 一致性：x.equals(y)的第一次迪奧喲經為true，那麼x.equals(y)的第二次、第三次、第n次調用也應該為true，前提條件是在比較之間沒有修改x也沒有修改y。
+* 對於任何的非空引用x，x。equals(null)返回false。
+**當我們需要重寫hashcode()方法的時候也需要重寫equals()方法，同樣的道理，當重寫了equals()方法也需要重寫equals()方法**
+
+## 關於Object類中的hashcCode()方法的特點：
+* 在Java應用的一次執行過程當中，對於同一個對象的hashcCode方法的多次調用，他們應該返回同樣的值。
