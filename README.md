@@ -1,4 +1,6 @@
 # STUDY_NOTE
+## Android
+>* [生命週期分析](https://github.com/kentanvictor/STUDY/blob/master/Android/%E7%94%9F%E5%91%BD%E9%80%B1%E6%9C%9F%E5%88%86%E6%9E%90.md)
 ## JAVA學習
 >* [深入理解ArrayList](https://github.com/kentanvictor/STUDY/blob/master/JAVA%E5%AD%B8%E7%BF%92/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3ArrayList.md)
 >* [IDE的詳細介紹](https://github.com/kentanvictor/STUDY/blob/master/JAVA%E5%AD%B8%E7%BF%92/IDE%E7%9A%84%E8%A9%B3%E7%B4%B0%E4%BB%8B%E7%B4%B9.md)
