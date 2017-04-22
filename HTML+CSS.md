@@ -162,3 +162,18 @@
 table tr td,th{border:2px solid #342;}
 </style>
 ```
+****
+* summary与caption用来添加标题与摘要
+><strong>< table summary="摘要的内容"></strong><br/>
+>上面的summary添加的摘要与在html中添加注释的效果是一样的，目的是为了给程序员看，防止表格太多改错了。<br/>
+><strong>< caption >标题文本< /caption ></strong><br/>
+>上面的就是给表格添加标题(表头)的
+****
+* < a >标签使用的超链接
+>使用
+```html
+<a href="目标地址" title="鼠标滑过显示的文本">连接显示的文本</a>
+```
+><em>href：Hypertext Reference的缩写。意思是超文本引用。</em><br/>
+>title属性的作用，鼠标滑过链接文字时会显示这个属性的文本内容。<br/>
+><em><strong>注：只要文本加入a标签之后，文字的颜色就会自动变成蓝色（点击之后的文本颜色会变成紫色）</strong></em>
