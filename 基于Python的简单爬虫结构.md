@@ -43,6 +43,18 @@ r = opener.open(req)
 print(r.read().decode('utf-8'))
 ```
 ## 下面是一个网页解析器
+>网页解析器：**从网页中提取有价值数据的工具**
+>![](./image/Web_parser.png)
+>* <em><strong>python四种网页解析器</strong></em>
+>![](./image/four_type_of_Web_parser.png)
+>>**什么叫做结构化解析？**
+>><em><strong>结构化解析-DOM(Document Object Model)树</em></strong>
+>>![](./image/DOM.png)
+
+### BeautifulSoup语法
+![](./image/BeautifulSoup.png)
+* [<strong><em>BeautifulSoup4.2.0中文文档</strong></em>](https://www.crummy.com/software/BeautifulSoup/bs4/doc/index.zh.html#id10)
+
 ```python
 from bs4 import BeautifulSoup
 import re
