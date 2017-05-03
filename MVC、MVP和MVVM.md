@@ -9,5 +9,6 @@
 ***通过View接受指令，传递给Controller***<br/>
 
 ![](./image/View_to_Controller.png)
+<h3>第二种</h3>
 <hr/>
 [MVC、MVP和MVVM](http://www.ruanyifeng.com/blog/2015/02/mvcmvp_mvvm.html)
