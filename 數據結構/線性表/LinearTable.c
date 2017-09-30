@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<malloc.h>
 #include<stdlib.h>
+
 #define MAX 100
 typedef int datatype;
 typedef struct
@@ -8,11 +9,13 @@ typedef struct
     datatype a[MAX];
     int size;
 }sequence_list;
+
 /*顺序表的初始化*/
 void init(sequence_list *slt)
 {
     slt->size = 0;
 }
+
 /*顺序表的插入操作*/
 void append(sequence_list *slt,datatype x)
 {
@@ -24,6 +27,7 @@ void append(sequence_list *slt,datatype x)
     slt->a[slt->size] = x;
     slt->size = slt->size+1;
 }
+
 /*打印顺序表各个结点的值*/
 void display(sequence_list slt)
 {
@@ -40,11 +44,13 @@ void display(sequence_list slt)
         }
     }
 }
+
 /*判断顺序表是否为空*/
 int empty(sequence_list slt)
 {
     return (slt.size == 0 ? 1:0);
 }
+
 /*查找順序表中值为x的结点的位置*/
 int find(sequence_list slt,datatype x)
 {
@@ -55,6 +61,7 @@ int find(sequence_list slt,datatype x)
 	}
 	return(i<slt.size ? i:-1);
 }
+
 /*取得顺序表中第i个结点的值*/
 datatype get(sequence_list slt,int i)
 {
@@ -68,6 +75,7 @@ datatype get(sequence_list slt,int i)
 		return slt.a[i];
 	}
 }
+
 /*在順序表的position的位置插入值为x的结点*/
 void insert(sequence_list *slt,datatype x,int position)
 {
@@ -89,6 +97,7 @@ void insert(sequence_list *slt,datatype x,int position)
 	slt->a[position] = x;
 	slt->size++;
 }
+
 /*删除顺序表中第position位置的结点*/
 void dele(sequence_list *slt,int position)
 {
@@ -109,6 +118,7 @@ void dele(sequence_list *slt,int position)
 	}	
 	slt->size--;
 }
+
 int main()
 {
 	int i,j;
