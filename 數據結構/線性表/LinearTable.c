@@ -68,9 +68,30 @@ datatype get(sequence_list slt,int i)
 		return slt.a[i];
 	}
 }
-int main()
+/*在順序表的position的位置插入值为x的结点*/
+void insert(sequence_list *slt,datatype x,int position)
 {
 	int i;
+	if(slt->size==MAX)
+	{
+		printf("\n顺序表是满的!没法插入!");
+		exit(1);
+	}
+	if(position<0||position>slt->size)
+	{
+		printf("\n指定插入的位置不存在!");
+		exit(1);
+	}
+	for(i=slt->size;i>position;i--)
+	{
+		slt->a[i]=slt->a[i-1];
+	}
+	slt->a[position] = x;
+	slt->size++;
+}
+int main()
+{
+	int i,j;
 	int length;
 	datatype temp;
     sequence_list list1;
@@ -85,10 +106,14 @@ int main()
 	}
 	printf("创建好了线性表\n");
 	display(list1);
+	printf("请输入想要插入的数字,和在哪里插入:\n");
+	scanf("%d,%d",&temp,&j);
+	insert(&list1,temp,--j);
+	printf("插入后的结果为:\n");
+	display(list1);
 	printf("请输入需要查找的数字:\n");
 	scanf("%d",&temp);
 	temp = find(list1,temp)+1;
-	printf("你所查找的数字的位置在%d的位置",temp);
+	printf("你所查找的数字的位置在第%d的位置\n",temp);
 	return 0;
-	
 }
