@@ -89,6 +89,26 @@ void insert(sequence_list *slt,datatype x,int position)
 	slt->a[position] = x;
 	slt->size++;
 }
+/*删除顺序表中第position位置的结点*/
+void dele(sequence_list *slt,int position)
+{
+	int i;
+	if(slt->size == 0)
+	{
+		printf("\n顺序表是空的!");
+		exit(1); 
+	}
+	if(position<0||position>=slt->size)
+	{
+		printf("\n指定删除的位置不存在!");
+		exit(1);
+	}
+	for(i=position ; i<slt->size-1;i++)
+	{
+		slt->a[i] = slt->a[i+1];
+	}	
+	slt->size--;
+}
 int main()
 {
 	int i,j;
@@ -115,5 +135,10 @@ int main()
 	scanf("%d",&temp);
 	temp = find(list1,temp)+1;
 	printf("你所查找的数字的位置在第%d的位置\n",temp);
+	printf("请输入你想删除的结点的位置:\n");
+	scanf("%d",&j);
+	dele(&list1,--j);
+	printf("删除之后的结果为:\n");
+	display(list1); 
 	return 0;
 }
