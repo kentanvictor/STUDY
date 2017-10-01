@@ -105,7 +105,7 @@ void dele(sequence_list *slt,int position)
 	if(slt->size == 0)
 	{
 		printf("\n顺序表是空的!");
-		exit(1); 
+		exit(1);
 	}
 	if(position<0||position>=slt->size)
 	{
@@ -115,7 +115,7 @@ void dele(sequence_list *slt,int position)
 	for(i=position ; i<slt->size-1;i++)
 	{
 		slt->a[i] = slt->a[i+1];
-	}	
+	}
 	slt->size--;
 }
 
@@ -149,6 +149,6 @@ int main()
 	scanf("%d",&j);
 	dele(&list1,--j);
 	printf("删除之后的结果为:\n");
-	display(list1); 
+	display(list1);
 	return 0;
 }
