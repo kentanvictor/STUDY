@@ -44,4 +44,32 @@ datatype get(SqQue sq)
 		exit(1);
 	}
 	return (sq.a[sq.front]); 
- } 
+}
+/*队列的插入操作*/
+void insert(sqQue *sq,datatype x)
+{
+	int i;
+	if(sq->rear == MAX)
+	{
+		printf("\n顺序队列是满的！")；
+		exit(1); 
+	}
+	sq->a[sq->rear]=x;
+	sq->rear = sq->rear+1;
+} 
+/*队列删除操作*/
+void dele(SqSue *sq)
+{
+	if(sq->front == sq->rear)
+	{
+		printf("\n顺序表是空的！不能做删除操作！");
+		exit(1);
+	}
+	sq->front++;
+}
+int main()
+{
+	int i;
+	SqSue sq1;
+	return 0;
+}
