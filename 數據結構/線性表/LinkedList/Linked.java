@@ -4,6 +4,11 @@ package com.dell.example.linked;
  * Created by JohnnyTan on 2017/10/4.
  */
 public class Linked {
+    public static void main(String[] args) {
+            System.out.println('b');
+            System.out.println('b' + 'c');
+            System.out.println((char) ('a' + 4));
+    }
 }
 class Data//结点的关键字
 {
