@@ -1,13 +1,33 @@
 package com.dell.example.linked;
 
+import java.util.Scanner;
+
 /*
  * Created by JohnnyTan on 2017/10/4.
  */
 public class Linked {
     public static void main(String[] args) {
-            System.out.println('b');
-            System.out.println('b' + 'c');
-            System.out.println((char) ('a' + 4));
+        CLType node,head = null;
+        CLType CL = new CLType();
+        String key,findkey;
+        Scanner input = new Scanner(System.in);
+        System.out.println("链表测试.先输入链表中的数据,格式为:关键字 姓名 年龄\n");
+        do
+        {
+            Data nodeData = new Data();
+            nodeData.key = input.next();
+            if (nodeData.key.equals("0"))
+            {
+                break;//若输入0,则退出
+            }
+            else
+            {
+                nodeData.name = input.next();
+                nodeData.age = input.nextInt();
+                head = CL.CLAddEnd(head,nodeData);//在链表尾部添加结点
+            }
+        }while (true);
+        CL.CLALLNode(head);
     }
 }
 class Data//结点的关键字
@@ -136,5 +156,20 @@ class CLType//定义链表结构
             htemp = htemp.nextNode;
         }
         return Len;
+    }
+
+    //遍历链表
+    void CLALLNode(CLType head)
+    {
+        CLType htemp;
+        Data nodeData;
+        htemp = head;
+        System.out.println("当前链表共有" + CLength(head) + "个结点.链表所有数据如下:\n");
+        while (htemp != null)
+        {
+            nodeData = htemp.nodeData;
+            System.out.printf("结点(%s,%s,%d)\n",nodeData.key,nodeData.name,nodeData.age);
+            htemp = htemp.nextNode;
+        }
     }
 }
