@@ -1,9 +1,20 @@
 package com.dell.example.linearlist;
 
+import java.util.Scanner;
+
 /*
  * Created by JohnnyTan on 2017/10/10.
  */
 public class StackList {
+    public static void main(String[] args) {
+        StackType st = new StackType();
+        Information data = new Information();
+        //初始化
+        StackType stack = st.STInit();
+        Scanner input = new Scanner(System.in);
+        System.out.println("入栈操作:\n");
+        System.out.println("输入姓名 年龄进行入栈操作:");
+    }
 }
 class Information
 {
@@ -70,6 +81,17 @@ class StackType
         }
         s.data[++s.top] = data;
         return 1;
+    }
+
+    //出栈操作
+    Information PopST(StackType s)
+    {
+        if(s.top == 0)
+        {
+            System.out.println("栈为空!\n");
+            System.exit(0);
+        }
+        return (s.data[s.top]);
     }
 }
 
