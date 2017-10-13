@@ -1,15 +1,7 @@
 #include<stdio.h>
 #include<malloc.h>
 #include<stdlib.h>
-
-#define MAX 100
-typedef int datatype;
-typedef struct
-{
-	datatype a[MAX];
-	int top;
-}SqStack;
-/*Ë³ÐòÕ»µÄ³õÊ¼»¯*/
+#include<sq.h>
 void init(SqStack *st)
 {
     st->top = 0;
