@@ -31,6 +31,7 @@ int | 4 | -2147483648~2147483647，即 -231~(231-1)
 unsigned int | 4 | 	0~4294967295，即0~(232-1)
 long | 4 | -2147483648~2147483647，即 -231~(231-1)
 unsigned long | 4 |	0~4294967295，即0~(232-1)
+   - [c语言中有符号和无符号数据类型的区别](http://blog.csdn.net/gogokongyin/article/details/39758289)
    - 关系运算符
 
 关系运算符 | 含义
@@ -70,6 +71,9 @@ unsigned long | 4 |	0~4294967295，即0~(232-1)
 char    |  %c  
 float   | %f  
 double  |  %lf   
+八进制整数 | %o
+指针 | %p
+无符号十进制整数 | %u
    - 常量
       - `const int max = 100;`
       - const与define所申明的是有区别的。const只是将变量申明成只读的。
