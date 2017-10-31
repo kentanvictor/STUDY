@@ -1,8 +1,8 @@
-# IDE的詳細介紹
-* 對於java中的常量的命名規則：
- * 所有單詞的字母都是大寫，如果有多個單詞，那麼使用下劃線連接即可。比如說：
+# IDE的详细介绍
+* 对于java中的常量的命名规则：
+ * 所有单词的字母都是大写，如果有多个单词，那么使用下划线链接即可。比如说：
   * public static final int AGE_OF_PERSON = 20;
-* 常量起的作用：（代碼如下：）
+* 常量起的作用：（代码如下：）
 
 ```java
 public class Authorization
@@ -35,15 +35,15 @@ public class Test
 
 ```
 
-* 在java中聲明final常量時通常都會加上static關鍵字，這樣對對象的每個實例都會訪問唯一一份的常量值。
+* 在java中声明final常量时通常都会加上static关键字，这样对对象的每个实例都会访问唯一一份的常量值。
 ## Java中的集合框架
 
 ![](../image/implement.png)
 
 * 上面是集合框架的接口
-* 所謂框架就是一個類庫的集合。集合框架就是一個用來表示和操作集合的統一架構，包含了實現集合的接口與類。
-## IDE（Integrated Development Environment）（集成開發環境）
+* 所谓框架就是一個类库的集合。集合框架就是一个用来表示和操作集合的统一架构，包含了实现集合的接口与类。
+## IDE（Integrated Development Environment）（集成开发环境）
  * 第一個：NetBeans（https://www.NetBeans.org/）
- * 第二個：JBuilder
- * 第三個：IntelliJ IDEA
- * 第四個：Eclipse（日蝕、月蝕）
+ * 第二個：JBuilder（http://edn.embarcadero.com/cn/jbuilder）
+ * 第三個：IntelliJ IDEA（https://www.jetbrains.com/idea/）
+ * 第四個：Eclipse（日蚀、月蚀）（https://www.eclipse.org/downloads/）
