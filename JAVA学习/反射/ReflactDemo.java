@@ -10,7 +10,7 @@ import java.lang.reflect.Method;
 public class ReflactDemo {
     public static void main(String[] args) {
         Person p = new Person();
-        //Test(p);
+        Test(p);
         Test();
     }
 
