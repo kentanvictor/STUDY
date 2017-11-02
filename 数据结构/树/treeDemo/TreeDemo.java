@@ -143,4 +143,42 @@ class TreeOperation {
             return 1;
         }
     }
+
+    private void ClearTree(CBTType treeNode)            //清空二叉树
+    {
+        if(treeNode != null)
+        {
+            ClearTree(treeNode.left);                   // 清空左子树
+            ClearTree(treeNode.right);                  //清空右子树
+            treeNode = null;                            // 释放当前结点所占据的内存
+        }
+    }
+
+    private void TreeNodeData(CBTType p)            //显示结点数据
+    {
+        System.out.printf("%s",p.data);             //输出结点数据
+    }
+
+    private void LevelTree(CBTType treeNode)        //按层遍历
+    {
+        CBTType p;
+        CBTType[] q = new CBTType[MAX];             //定义一个顺序栈
+        int head = 0,tail = 0;
+        if(treeNode != null)
+        {
+            tail = (tail + 1) % MAX;                //计算循环队列队尾序号
+            q[tail] = treeNode;                     //将二叉树根引用进队
+        }
+        while (head != tail)
+        {
+            head = (head + 1) % MAX;
+            p = q[head];
+            TreeNodeData(p);                        //处理队首元素
+            if(p.right != null)
+            {
+                tail = (tail + 1) % MAX;            //计算循环队列的队尾序号
+                q[tail] = p.right;                  //将右子树引用进队
+            }
+        }
+    }
 }
