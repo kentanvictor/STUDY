@@ -181,4 +181,14 @@ class TreeOperation {
             }
         }
     }
+
+    private void DLRTree(CBTType treeNode)          //先序遍历
+    {
+        if(treeNode != null)
+        {
+            TreeNodeData(treeNode);                 //显示结点数据
+            DLRTree(treeNode.left);
+            DLRTree(treeNode.right);
+        }
+    }
 }
