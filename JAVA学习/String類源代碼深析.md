@@ -1,6 +1,6 @@
-# Object類中equals()方法
-* 該方法定義在Object類當中，因此java中的每個類都具有該方法
-* 對於Object類中的equals()方法來說，它判斷調用equals()方法的引用與傳進來的引用是否一致，即這兩個引用是否指向的是同一個對象。
+# Object类中equals()方法
+* 该方法定义在Object类当中，因此java中的每个类都具有该方法
+* 对于Object类中的equals()方法來說，它判斷調用equals()方法的引用與傳進來的引用是否一致，即這兩個引用是否指向的是同一個對象。
 * 對於Object類的equals()，它等於“==”
 # String類中equals()方法
 * 對於String類中的equals()方法來說，它是判斷當前字符串與傳進來的字符串的內容是否一致
