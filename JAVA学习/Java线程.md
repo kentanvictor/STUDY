@@ -21,7 +21,7 @@ java中实现多线程
 1）继承Thread,重写里面的run方法
 2）实现runnable接口
 
-Doug Lea比较推荐后者，第一，java没有单继承的限制第二，还可以隔离代码
+Doug Lea比较推荐后者，第一，java没有单继承的限制，第二，还可以隔离代码
 
 线程池
 要知道在计算机中任何资源的创建，包括线程，都需要消耗系统资源的。在WEB服务中，对于web服
@@ -154,8 +154,7 @@ System.out.println("end "+thread.getName());
 }
 
 //同步方式一：同步方法
-synchronized static void method1(Thread thread){//这个方法是同步的方法，每次只有一
-个线程可以进来
+synchronized static void method1(Thread thread){//这个方法是同步的方法，每次只有一个线程可以进来
 System.out.println("begin "+thread.getName());
 try{
 Thread.sleep(2000);
