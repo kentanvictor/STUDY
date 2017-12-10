@@ -1,4 +1,6 @@
- ****注：構造方法與普通方法之間的區別在于：構造方法的名稱與類名相同、不需要定義返回值類型和不可以寫renturn語句。其作用只在於給對象起到初始化的效果****
+# hashCode与equals详解
+
+ ****注：构造方法与普通方法之间的区别在于：构造方法的名称与类名相同、不需要定义返回值类型和不可以写renturn语句。其作用只在于给对象起到初始化的效果****
  ### 构造方法与一般方法在写法上的不同：
  构造方法：
  ```java
@@ -41,12 +43,12 @@
  一般方法可以被对象多次调用；
 
 # Interface Set < E >
-* 實現Set接口的類有：
+* 实现Set接口的类有：
  * AbstractSet、ConcurrentSkipListSet、CopyOnWriteArraySet、EnumSet、HashSet、JobStateReasons
  * LinkedHashSet、TreeSet
 
-## 在Interfere Set< E >接口中，使用的最多的繼承的類就是HashSet
- * HashSet的構造方法一共有四個：
+## 在Interfere Set< E >接口中，使用的最多的继承的类就是HashSet
+ * HashSet的构造方法一共有四个：
   * HashSet()
   * HashSet(Collection<? extends E> c)
   * HashSet(int initialCapacity)
@@ -79,13 +81,13 @@
   * int size()
    >Returns the number of elements in this set(its cardinality)(返回此集合中的元素数（它的基数）
 
-### 關於Object類的equals方法的特點
-* 自反性：x.equals(x)應該返回true
-* 對稱性：x.equals(y)為true，那麼y.equals(x)返回值也為true
-* 可傳遞性：x.equals(y)為true並且y.equals(z)為true，那麼x.equals(z)也應該為true。
-* 一致性：x.equals(y)的第一次迪奧喲經為true，那麼x.equals(y)的第二次、第三次、第n次調用也應該為true，前提條件是在比較之間沒有修改x也沒有修改y。
-* 對於任何的非空引用x，x。equals(null)返回false。
-**當我們需要重寫hashcode()方法的時候也需要重寫equals()方法，同樣的道理，當重寫了equals()方法也需要重寫equals()方法**
+### 关于Object类的equals方法的特点
+* 自反性：x.equals(x)应该返回true
+* 对称性：x.equals(y)为true，那么y.equals(x)返回值也为true
+* 可传递性：x.equals(y)为true并且y.equals(z)为true，那么x.equals(z)也应该为true。
+* 一致性：x.equals(y)的第一次调用为true，那么x.equals(y)的第二次、第三次、第n次调用也应该为true，前提条件是在比较之间没有修改x也沒有修改y。
+* 对于任何的非空引用x，x。equals(null)返回false。
+**当我们需要重写hashcode()方法的时候也需要重写equals()方法，同样的道理，当重写了equals()方法也需要重写equals()方法**
 
-## 關於Object類中的hashcCode()方法的特點：
-* 在Java應用的一次執行過程當中，對於同一個對象的hashcCode方法的多次調用，他們應該返回同樣的值。
+## 关于Object类中的hashcCode()方法的特点：
+* 在Java应用的一次执行过程当中，对于同一个对象的hashcCode方法的多次调用，他們应该返回同样的值。
