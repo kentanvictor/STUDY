@@ -1,23 +1,23 @@
-# 數組的搜索與查找查詢
+# 数组的搜索与查找查询
 * 二分查找（Binary Search）:
 #### 注：
- * 需要被查找的數據必須是有序的。
- * 按照中間的元素來進行比較：
-  * 若中間的元素大於的話，就直接將中間數後面的元素全部排除掉
-  * 然後中間元素前面的元素再取中間的值進行比較
+ * 需要被查找的数据必须是有序的。
+ * 按照中间的元素来进行比较：
+  * 若中间的元素大于的话，就直接将中间数后面的元素全部排除掉
+  * 然后中间元素前面的元素再取中间的值进行比较
 
-  ……
+  * ……
 
-  * 不斷的取中間的值進行比較
+  * 不断的取中间的值进行比较
 
 
-* 代碼如下:
+* 代码如下:
 
 ```java
 
 public class ArraySearchText
 {
-    public static int BinarySearch(int [] Array,int value)//這裡直接認為傳入方法中的數組就已經是排序好了的
+    public static int BinarySearch(int [] Array,int value)//这里直接认为传入方法中的数组就已经是排序好了的
     {
       int low = 0;
       int high = array.length - 1;
