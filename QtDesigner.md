@@ -20,7 +20,10 @@
 + 双击进去之后就是我们需要进行ui设计的界面了（如下图所示）：
 ![](./image/QTDesigner.png)
 + 在这里，你可以进行控件的拖动，直接拖到方框中去，然后再对象查看器（如下图所示）可以看到你控件所对应的类以及生成的对象。
-![](./image/QTTest1.png)![](./image/QTTest2.png)
+
+![](./image/QTTest1.png)
+
+![](./image/QTTest2.png)
 + 创建好对象之后，点击左上角的文件->保存（Ctrl+S）
 + 然后关闭QT Designer，回到VS2015中，`右键QTTest.ui，选择编译（Ctrl+F7）`，如下图所示：
 ![](./image/QTTest3.png)
