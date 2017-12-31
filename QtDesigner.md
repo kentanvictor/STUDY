@@ -73,3 +73,6 @@ QTTest::QTTest(QWidget *parent)
 
  + 点击button之后：
  ![](./image/ClickAfter.png)
+
+
+[下一节,控件的使用](./QTDesigner1.md)
