@@ -75,4 +75,4 @@ QTTest::QTTest(QWidget *parent)
  ![](./image/ClickAfter.png)
 
 
-[下一节,控件的使用](./QTDesigner1.md)
+[下一节,控件的使用](./QT控件的使用.md)
