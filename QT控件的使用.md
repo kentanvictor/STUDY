@@ -20,7 +20,7 @@
  ![](./image/SpinBox.png)
  + 下面是控件基于信号槽的使用（代码如下）：
 
- **位于QTGUITest.h中**
+ + **位于QTGUITest.h中**
 
  ```
  private slots:
@@ -34,7 +34,7 @@
 	}
  ```
 
- **位于QTGUITest.cpp中**
+ + **位于QTGUITest.cpp中**
 
  ```
  //关联QSlider控件
@@ -45,3 +45,51 @@
  + 最后实现的效果如下：
 
  ![](./image/QSpinBoxFinish.png)
+
+ + 键盘输入实现
+ + **在QTGUITest.h中添加函数**
+
+ ```
+ private void  keyPressEvent(QKeyEvent *);
+ ```
+
+ + 然后**在QTGUITest.cpp中实现**
+
+ ```
+ void QTGUITest::keyPressEvent(QKeyEvent *e)
+ {
+   switch(e->key())
+   {
+     //减法键
+     case Qt::Key_Minus:
+          ui.textBrowser->insertPlainText("-");
+          break;
+     //乘法键
+     case Qt::Key_Asterisk:
+          ui.textBrowser->insertPlainText("*");
+          break;
+          //除法键
+  	case Qt::Key_Slash:
+  		ui.textBrowser->insertPlainText("/");
+  		break;
+  		//取模键
+  	case Qt::Key_Percent:
+  		ui.textBrowser->insertPlainText("%");
+  		break;
+  		//乘方键
+  	case Qt::Key_AsciiCircum:
+  		ui.textBrowser->insertPlainText("^");
+  		break;
+   }
+ }
+ ```
+
+ ***上面的的Key的键位还有很多种，可以去参照QT的官方文档进行查阅。***
+
+ + 获取到textBrower里面的内容并将其转化为char类型
+
+ ```
+	QString str = ui.textBrowser->toPlainText();
+	QByteArray ba = str.toLatin1();
+	ch = ba.data();
+ ```
