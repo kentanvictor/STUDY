@@ -93,3 +93,10 @@
 	QByteArray ba = str.toLatin1();
 	ch = ba.data();
  ```
+
+ + int类型转换为QString类型
+
+ ```
+ int _mStackSize;
+ QString s3 = QString::number(_mStackSize);
+ ```
