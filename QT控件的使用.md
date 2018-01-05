@@ -86,7 +86,7 @@
 
  ***上面的的Key的键位还有很多种，可以去参照QT的官方文档进行查阅。***
 
- + 获取到textBrower里面的内容并将其转化为char类型
+ + 获取到textBrower里面的内容并将其转化为char*类型
 
  ```
 	QString str = ui.textBrowser->toPlainText();
