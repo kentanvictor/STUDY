@@ -94,6 +94,14 @@
 	ch = ba.data();
  ```
 
+ + 将char*转换为QString的方式
+
+ ```
+ char c3[MAX];
+ QByteArray b2 = QByteArray(c3);
+		QString s2 = QString(b2)
+ ```
+
  + int类型转换为QString类型
 
  ```
