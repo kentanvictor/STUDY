@@ -108,3 +108,11 @@
  int _mStackSize;
  QString s3 = QString::number(_mStackSize);
  ```
+
+ + 实现键盘上的backspace键
+
+ ```
+ QTextCursor cursor;
+ cursor = ui.textBrowser->textCursor();
+ cursor.deletePreviousChar();
+ ```
