@@ -56,3 +56,14 @@ iv_animation.animate()
             .setInterpolator(new BounceInterpolator())
             .start();
 ```
+### ViewPager(广告条效果)
++ ViewPager的使用
++ 广告条的基本功能
++ ViewPager拓展
++ 改进成引导页面
+
+#### ViewPager的使用
++ 第一：使用`android.support.v4.view.ViewPager`在布局文件中定义
++ 第二：在代码中实例化ViewPager
++ 第三：准备数据
++ 第四：设置适配器(PagerAdapter)-item-布局-绑定数据
