@@ -16,3 +16,6 @@
   - ![](../image/PyCharmTestConnection.png)
   - 在这里设置你的`用户名`和`密码`**用户名与密码可以在腾讯云的更多中重置与设置**
   - 然后这个时候就连接上了
+ + 此时，在你的PyCharm的右边，会出现服务器上的树目录结构(如图所示)
+  - ![](../image/PyCharmAdmin.png)
+  - 进入到home-->ubuntu下，在这里面，你具有权限，此时就可以将你的整个项目拖进去，然后在服务器端进入到项目中**创建screen后台**，运行**manage.py runserver 0.0.0.0:端口号**就可以使你的django一直保持运行的状态了。
