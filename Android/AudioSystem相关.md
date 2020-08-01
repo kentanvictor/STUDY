@@ -12,7 +12,7 @@
 | 硬件抽象层  | AudioHardwareInterface | AudioSteamOut  | AudioStreamIn |
 
 总通信方式大致如下：
-![android通信方式](https://wx1.sbimg.cn/2020/07/30/PY0mj.png)
+![android通信方式](https://wx1.sbimg.cn/2020/07/30/PY0mj.png?raw=true)
 
 Android音频系统的`核心`是Audio系统
 
