@@ -13,21 +13,21 @@
 git中使用的判断条件是：`SHA-1校验和`
 
 ### 仓库中文件转换
-![File Status Lifecycle](https://wx1.sbimg.cn/2020/07/27/DfbZn.png)
+![File Status Lifecycle](https://github.com/kentanvictor/STUDY/blob/Image/File%20Status%20Lifecycle.png?raw=true)
 
 + git add \<file>
 
-![Untracked](https://wx1.sbimg.cn/2020/07/27/DfFuK.png)
+![Untracked](https://github.com/kentanvictor/STUDY/blob/Image/Untracked.png?raw=true)
 
 使用add命令能够将untracked文件track，而通过reset命令能够将tracked转换成untracked
 
 add之后再查看文件状态
 
-![tracked](https://wx2.sbimg.cn/2020/07/27/DfI8G.png)
+![tracked](https://github.com/kentanvictor/STUDY/blob/Image/tracked.png?raw=true)
 
 ### git fetch and pull
 
-![指令示意图](https://wx2.sbimg.cn/2020/07/28/PMDXd.png)
+![指令示意图](https://github.com/kentanvictor/STUDY/blob/Image/%E6%8C%87%E4%BB%A4%E7%A4%BA%E6%84%8F%E5%9B%BE.png?raw=true)
 
 + git fetch：将远程主机的最新内容拉取到本地，用户在检查了以后决定是否合并到工作本机分支当中
 
