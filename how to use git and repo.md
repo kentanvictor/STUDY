@@ -55,13 +55,13 @@ git reset [options] <commit>
 
 `rebase` 会把你当前分支的 commit 放到公共分支的最后面
 
-![rebase示意图](https://wx1.sbimg.cn/2020/07/28/Pmgyn.png)
+![rebase示意图](https://github.com/kentanvictor/STUDY/blob/Image/rebase%E7%A4%BA%E6%84%8F%E5%9B%BE.png?raw=true)
 
 + git merge
 
 `merge` 会把公共分支和你当前的commit 合并在一起，形成一个新的 commit 提交
 
-![merge示意图](https://wx2.sbimg.cn/2020/07/28/Pms6h.png)
+![merge示意图](https://github.com/kentanvictor/STUDY/blob/Image/merge%E7%A4%BA%E6%84%8F%E5%9B%BE.png?raw=true)
 
 ### 与人协作
 
