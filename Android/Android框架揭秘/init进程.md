@@ -21,3 +21,4 @@ static int moinline init_post(void)
 }
 ```
 
+如果内核在以上的目录以及未指定启动项的情况下找不到init文件，内核就会终止init进程，从而触发`Kernel Panic`。
