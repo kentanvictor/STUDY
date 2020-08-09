@@ -28,9 +28,22 @@ static int moinline init_post(void)
 Android init进程主要提供了四大功能：
 
 + 分析及运行init.rc文件
+  + 分析init.rc和init.{hardware}.rc文件
+  + 运行early-init动作列表
+  + 执行init动作列表
 
 + 生成设备驱动节点
+  + 生成并装载目录
+  + 生成设备静态节点
+  + 注册POLL事件
 
 + 处理子进程终止
+  + 注册SIGCHLD信号Handler
+  + 生成UDS套接字
+  + 注册POLL事件
 
 + 属性服务
+  + 属性初始化
+  + 属性初始化设置
+  + 运行属性服务
+  + 注册POLL事件
