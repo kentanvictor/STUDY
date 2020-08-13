@@ -55,3 +55,15 @@ Android init进程主要提供了四大功能：
 init进程的加载是位于init.cpp下的，该cpp文件是位于\**/system/core/init文件夹下的
 
 而init.cpp所加载的所有的.rc文件是位于\**/system//core/rootdir文件夹下的
+
+## 五大生命类型
+
+### Action
+
+### Command
+
+### Services
+
+### Imports
+
+### Options
