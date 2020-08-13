@@ -51,3 +51,7 @@ Android init进程主要提供了四大功能：
 每个进程在处理其他进程发送的信号时，都要注册程序，此程序被称为`信号处理器`。
 
 子进程终止产生SIGCHILD信号时，init进程需要调用信号安装函数**sigaction()**
+
+init进程的加载是位于init.cpp下的，该cpp文件是位于\**/system/core/init文件夹下的
+
+而init.cpp所加载的所有的.rc文件是位于\**/system//core/rootdir文件夹下的
