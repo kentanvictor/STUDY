@@ -67,3 +67,5 @@ init进程的加载是位于init.cpp下的，该cpp文件是位于\**/system/cor
 ### Imports
 
 ### Options
+
+## 两种数据类型
