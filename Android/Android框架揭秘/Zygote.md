@@ -5,3 +5,5 @@
 先后顺序：
 
 init进程 –-> Zygote进程 –> Dalvik VM进程 –> SystemServer进程 –>应用进程
+
+在init.rc文件被init.cpp中SecondStageMain函数中进行解析的时候，位于core\/rootdir文件夹下的init.rc文件中有一行：`import /init.${ro.zygote}.rc`
