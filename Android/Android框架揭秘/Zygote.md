@@ -9,3 +9,5 @@ init进程 –-> Zygote进程 –> Dalvik VM进程 –> SystemServer进程 –>�
 在init.rc文件被init.cpp中SecondStageMain函数中进行解析的时候，位于core\/rootdir文件夹下的init.rc文件中有一行：`import /init.${ro.zygote}.rc`
 
 在Linux中，只有0号进程，又被称为`idle`，不是通过fork()方式进行创建的，其他的进程，包括init进程的创建方式都是通过fork()进行的。
+
+Zygote进程首先fork出“System server”进程，“System server”进程会有PowerManager Service、Sensor Service、Location Service等服务的开启。
