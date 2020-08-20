@@ -2,6 +2,20 @@
 
 ![flow chart](https://github.com/kentanvictor/STUDY/blob/Image/Android%E6%A1%86%E6%9E%B6%E6%8F%AD%E7%A7%98/initToAppProgress.png?raw=true)
 
+`问题：`
+
++ zygote是如何启动的
++ zygote主要是负责哪些事情的
++ zygote和AndroidRuntime有什么关系
++ AndroidRuntime和虚拟机实例对象又是什么关系
++ zygote进程是如何从native层进入Java层的（JNI接口）
++ 通过zygote fork出来的进程，跟exec开启的进程有什么区别
++ zygote和（ZygoteServer） zygoteSocket,UASPSocket有什么关联？或者说使用socket做了什么事情
++ zygoteInit（ZygoteInit.java--JNI-->zygoteInit.cpp）中做了什么事情
++ zygote进程是如何完成fork子进程的
++ zygote是如何启动systemServer（AMS，PMS，WMS……）的
++ zygote fork子进程的copy-on-write在源码中的体现
+
 先后顺序：
 
 init进程 –-> Zygote进程 –> Dalvik VM进程 –> SystemServer进程 –>应用进程
