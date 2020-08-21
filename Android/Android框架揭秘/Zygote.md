@@ -25,3 +25,5 @@ init进程 –-> Zygote进程 –> Dalvik VM进程 –> SystemServer进程 –>�
 在Linux中，只有0号进程，又被称为`idle`，不是通过fork()方式进行创建的，其他的进程，包括init进程的创建方式都是通过fork()进行的。
 
 Zygote进程首先fork出“System server”进程，“System server”进程会有PowerManager Service、Sensor Service、Location Service等服务的开启。
+
+`COW:`因为复制内存的开销比较大，因此创建的子进程在引用父进程的内存空间时，不要进行复制，而要直接共享父进程的内存空间。
