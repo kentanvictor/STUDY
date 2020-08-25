@@ -32,6 +32,6 @@ Zygote进程首先fork出“System server”进程，“System server”进程�
 
 ## AppRuntime对象
 
-AppRuntime类用于初始化并运行Dalvik虚拟机
+AppRuntime类用于初始化并运行Dalvik虚拟机，再在Dalvik上装在ZygoteInit Class
 
 ### app_process
