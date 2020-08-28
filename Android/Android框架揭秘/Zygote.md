@@ -39,3 +39,7 @@ AppRuntime类用于初始化并运行Dalvik虚拟机，再在Dalvik上装在Zygo
 app_process参数形式如下：
 
 `app_process [java-options] cmd-dir start-class-name[options]`
+
++ [java-options] : 传给虚拟机的选项，必须以“-” 开始
++ cmd-dir : 所要运行的进程所在的目录
++ start-class-name : 要在虚拟机中运行的类的名称。
