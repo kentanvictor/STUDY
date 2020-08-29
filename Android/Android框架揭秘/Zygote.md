@@ -42,4 +42,4 @@ app_process参数形式如下：
 
 + [java-options] : 传给虚拟机的选项，必须以“-” 开始
 + cmd-dir : 所要运行的进程所在的目录
-+ start-class-name : 要在虚拟机中运行的类的名称。
++ start-class-name : 要在虚拟机中运行的类的名称
