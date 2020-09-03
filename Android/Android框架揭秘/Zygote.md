@@ -49,3 +49,5 @@ app_process参数形式如下：
 + cmd-dir : 所要运行的进程所在的目录
 
 + start-class-name : 要在虚拟机中运行的类的名称
+
++ [options] : 要传递给类的选项
