@@ -51,3 +51,7 @@ app_process参数形式如下：
 + start-class-name : 要在虚拟机中运行的类的名称
 
 + [options] : 要传递给类的选项
+
+`service zygote /system/bin/app_process64 -Xzygote /system/bin --zygote --start-system-server --socket-name=zygote`
+
+在zygote的rc文件中，每一行都有一个命令
