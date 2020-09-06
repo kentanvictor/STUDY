@@ -20,8 +20,6 @@
 
 ~~nit进程 –-> Zygote进程 –> Dalvik VM进程 –> SystemServer进程 –>应用进程~~
 
-由于Zygote是由Java编写的，所以如何要运行Zygote必须得先把Dalvik虚拟机跑起来，而在init.rc中执行这一任务的进程是：`app_process`
-
 在init.rc文件被init.cpp中SecondStageMain函数中进行解析的时候，位于core\/rootdir文件夹下的init.rc文件中有一行：`import /init.${ro.zygote}.rc`
 
 从rc文件中可以看到第一行会执行一个app_process的可执行文件，在P中，这个可执行文件所链接到的cpp位置为：`frameworks/base/cmds/app_process/app_process.cpp`
@@ -52,6 +50,9 @@ app_process参数形式如下：
 
 + [options] : 要传递给类的选项
 
+在zygote的rc文件中，每一行都有一个命令
+
 `service zygote /system/bin/app_process64 -Xzygote /system/bin --zygote --start-system-server --socket-name=zygote`
 
-在zygote的rc文件中，每一行都有一个命令
+
+由于Zygote是由Java编写的，所以如何要运行Zygote必须得先把Dalvik虚拟机跑起来，而在init.rc中执行这一任务的进程是：`app_process`
