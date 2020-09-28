@@ -42,3 +42,24 @@ public class LoginActivity extends Activity implements View.onClickListener{
 + initViews
 
 + loadData
+
+代码如下：
+
+```java
+
+public abstract class BaseActivity extends Activity{
+    @Override
+    protected void onCreate(Bundle saveInstanceState){
+        super.onCreate(savedInstanceState);
+
+        initVariables();
+        initViews(savedInstanceState);
+        loadData();
+    }
+
+    protected abstract void initVariables();
+    protected abstract void initViews(Bundle savedInstanceState);
+    protected abstract void loadData();
+}
+
+```
