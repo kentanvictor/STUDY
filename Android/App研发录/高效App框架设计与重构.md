@@ -63,3 +63,35 @@ public abstract class BaseActivity extends Activity{
 }
 
 ```
+
+### 重构二：
+
+一般的，对点击事件的监听方式可以有以下两种：
+
++ 第一种：
+
+```java
+
+public class LoginActivity extends Activity implements View.OnClickListener{
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState){
+        //省略代码
+
+        Button btnLogin = (Button)findViewById(R.id.sign_in_button);
+        btnLogin.setOnClickListener(this);
+    }
+
+    @Override
+    public void onClick(View v){
+        switch(v.getId()){
+            case R.id.sign_in_button:
+                Intent intent = new Intent(LoginActivity.this,PersonCenterActivity.class);
+                startActivity(intent);
+        }
+    }
+}
+
+```
+
++ 第二种：
