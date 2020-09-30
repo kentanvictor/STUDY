@@ -95,3 +95,22 @@ public class LoginActivity extends Activity implements View.OnClickListener{
 ```
 
 + 第二种：
+
+```java
+
+//登录事件
+btnLogin = (Button) findViewById(R.id.sign_in_button);
+btnLogin.setOnClickListener(new View.OnClickListener{
+    @Override
+    public void onClick(View v){
+        getoLoginActivity();
+    }
+});
+
+```
+
+书中更推荐使用`第二种`方式进行实现，其给出的原因是：
+
+第二种相比较于第一种：
++ 直接在btnLogin这个按钮对象上增加点击事件，是面向对象的写法。
++ 将onClick方面的实现，封装成一个gotoLoginActivity方法。
