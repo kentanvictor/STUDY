@@ -114,3 +114,5 @@ btnLogin.setOnClickListener(new View.OnClickListener{
 第二种相比较于第一种：
 + 直接在btnLogin这个按钮对象上增加点击事件，是面向对象的写法。
 + 将onClick方面的实现，封装成一个gotoLoginActivity方法。
+
+## 实体化编程
