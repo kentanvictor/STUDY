@@ -116,3 +116,19 @@ btnLogin.setOnClickListener(new View.OnClickListener{
 + 将onClick方面的实现，封装成一个gotoLoginActivity方法。
 
 ## 实体化编程
+
+下面是一段糟糕的代码：
+
+```java
+
+try{
+    JSONObject jsonResponse = new JSONObject(result);
+    JSONObject weatherInfo = jsonResponse.getJSONObject("weatherInfo");
+
+    String city = weatherInfo.getString("city");
+    int cityId = weatherInfo.getInt("cityid");
+}catch(JSONException e){
+    e.printStackTrace();
+}
+
+```
