@@ -132,3 +132,8 @@ try{
 }
 
 ```
+
+有两个问题：
+
++ 根据key值取value，其可以看成是一个字典，容易产生bug。
++ 每次都要手动的从JSONObject或者JSONArray中取值，很烦琐。
