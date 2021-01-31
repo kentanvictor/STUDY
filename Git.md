@@ -29,36 +29,37 @@
 * git branch name (create a branch)
 * git branch -d A (Delete A branch)
 * git push origin master (push master branch to online warehouse)
+
 # 如何使用Git Bash
+
 ## 新建
-當需要上傳一個項目到Github時，這個時候你需要在自己的Github上新建一個項目
-New repository
-然後在右下角有一個Clone or download
-點擊之後有一個Clone with HTTPS
-Use Git or checkout with SVN using the web URL.
-複製地址之後
-在需要上傳的項目文件中
-右鍵，點擊Git Bash Here之後
-先輸入 git clone + 地址
-會出現一個項目名稱的文件夾
-裡面有隱藏文件.git與ReadMe.md
-將具有項目名稱的文件夾中的全部內容剪切到需要上傳的項目的根目錄下
-之後在Git Bash中輸入
-git add .
-然後在本地執行提交操作
-git commit -m "//在這裡面輸入你的內容，比如：First commit."
-最後將提交的內容同步到遠程版本庫，也就是GitHub上面：
-git push origin master
++ 第一步：当需要上传一个项目到Github时，这个时候你需要在自己的Github上新建一个项目New repository
++ 第二步：在右下角有一个Clone or download点击之后有一个Clone with HTTPS Use Git or checkout with SVN using the web URL.
++ 第三步：复制地址之后在需要上传的项目文件中右键，点击Git Bash Here之后先输入 git clone + 地址。
++ 第四步：这时会出现一个项目名称的文件夹里面有隐藏文件.git与README.md
++ 第五步：将具有项目名称的文件夹中的全部内容剪切到需要上传的项目的根目录下之后在Git Bash中输入git add .
+
++ 第六步：然后在本地执行提交操作git commit -m "//在这里面输入你的内容，比如：First commit."
+
++ Finally：将提交的内容同步到远程版本库，也就是GitHub上面：git push origin master
+
 ## 更新
-當需要更新已經上傳的項目時
-直接在已經寫好的更新過的項目中
-右鍵，點擊Git Bash Here
-然後在命令行中輸入
+
++ 当需要更新已经上传的项目时，直接在已经写好的更新过的项目中
+右键，点击Git Bash Here然后在命令行中输入：
+
 git pull + 地址
-上傳跟新過之後，需要在命令行中輸入
-git add .
-之後的步驟又是重複著之前的了
-然後在本地執行提交操作
-git commit -m "//在這裡面輸入你的內容，比如：First commit."
-最後將提交的內容同步到遠程版本庫，也就是Github上面：
+
++ 上传跟新过之后，需要在命令行中输入git add .之后的步骤又是重复着之前的了然后在本地执行提交操作
+
+git commit -m "//在这里面输入你的内容，比如：First commit."
+
++ 最后将提交的内容同步到远程版本库，也就是Github上面：
+
 git push origin master
+
+> 小技巧：
+
++ 当仓库中的内容或者说提交次数过多的情况下，`.git`文件夹下所含有的内容是十分庞大的，因此可以使用如下命令只`拉取最近一次的提交`情况：
+
+**git clone --depth 1 + 地址**
