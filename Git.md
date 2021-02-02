@@ -63,3 +63,19 @@ git push origin master
 + 当仓库中的内容或者说提交次数过多的情况下，`.git`文件夹下所含有的内容是十分庞大的，因此可以使用如下命令只`拉取最近一次的提交`情况：
 
 **git clone --depth 1 + 地址**
+
+## 删除所有提交记录并代码保持当前状态
+
+以下是操作流程：
+
++ 尝试 运行：`git checkout --orphan latest_branch`  -->  创建一个新的分支
+
++ 添加所有文件：`git add -A` --> 将目前所有内容添加到新的分支上
+
++ 提交更改：`git commit -am "commit message"` --> commit信息提交
+
++ 删除分支：`git branch -D master` --> 将master分支删除
+
++ 将当前分支重命名：`git branch -m master` --> 将当前分支的名字换成master
+
++ 最后，强制更新存储库：`git push -f origin master`
