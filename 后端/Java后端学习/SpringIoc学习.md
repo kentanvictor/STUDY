@@ -6,13 +6,13 @@
 UserService us = new UserService();
 ```
 
-&darr; 面向接口编程
++ 面向接口编程
 
 ```java
 UserService us = new UserServiceImpl();
 ```
 
-&darr; ocp原则：Open-Close远测，对程序扩展是Open的，对修改程序代 码是close的。**尽量做到不修改程序代码，实现对程序的扩展。**
++ ocp原则：Open-Close远测，对程序扩展是Open的，对修改程序代 码是close的。**尽量做到不修改程序代码，实现对程序的扩展。**
 
 `工厂模式`
 
@@ -31,9 +31,7 @@ class FactoryBean{
 
 
 UserService us = FactoryBean();
-```
-
-&darr; 
+``` 
 
 `工厂 + 反射 + 配置文件`
 
